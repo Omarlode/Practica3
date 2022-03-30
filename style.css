@@ -9,6 +9,8 @@
 }
 .container nav {
   text-align: center;
+  margin-bottom: 50px;
+  padding-top: 10px;
 }
 .box {
   gap: 10px;
@@ -45,26 +47,22 @@ p {
 
   /*flex-basis: 20%;*/
 }
-.botones {
-  background-color: blueviolet;
-  color: #000000;
-  display: block;
-  clear: both;
-  overflow: auto;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 50%);
-  margin: 30px;
-  display: flex;
-  text-decoration: none;
-  color: #000000;
-  justify-content: space-around;
-  box-sizing: border-box;
+.content .botones img {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #1930b313;
 }
-.box .botones a img {
-  width: auto;
-  height: 40px;
-  box-sizing: border-box;
-
-  flex-wrap: wrap;
-  box-sizing: border-box;
+.botones a {
+  text-decoration: none;
+}
+.botones:hover {
+}
+.container .foot img {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #1930b313;
 }
