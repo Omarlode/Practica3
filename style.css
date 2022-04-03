@@ -1,9 +1,9 @@
 .container {
-  background-color: rgba(255, 235, 205, 0.048);
+  
   min-height: 600px;
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin:0 auto;
   margin-top: 120px;
   text-align: center;
   
@@ -11,7 +11,7 @@
 
 .box {
   gap: 10px;
-  background-color: rgba(68, 67, 67, 0);
+  
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
@@ -21,11 +21,10 @@
 
 .content {
   width: 300px;
-  background-color: #ffffff00;
   padding: 20px;
   text-align: center;
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.253);
   box-sizing: border-box;
   margin: 6px;
 }
@@ -43,6 +42,22 @@
 h2 {
   text-emphasis: 5;
 }
+h1 {
+  padding: 0px 60px;
+  font-size: 50PX;
+  margin: 50px;
+  color: rgba(0, 68, 255, 0.925);
+}
+h3{
+  margin: 50px;
+  color: rgba(128, 128, 128, 0.568);
+}
+h4{
+  padding-top: 50px;
+  margin: 50px;
+  color: blue;
+}
+
 p {
   background-color: rgba(244, 244, 245, 0);
 
@@ -72,8 +87,11 @@ footer img {
 footer {
   text-align: center;
   align-items: center;
+  
 }
-
+.foot a{
+  text-decoration: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -93,6 +111,10 @@ nav {
   height: 55px;
   width: auto;
 }
+.center a{
+  text-decoration: none;
+  color:black;
+}
 
 .menu-search input {
   padding: 8px 9px;
@@ -102,8 +124,8 @@ nav {
   background-size: 17px;
   background-position: center right 10px;
   background-repeat: no-repeat;
-  padding-right: 38px;
-  margin-right:35px ;
+  padding-right: 28px;
+  margin-right:25px ;
 }
 .content:hover {
   box-shadow: 5px 5px 15px 5px #0000000f;   
@@ -119,4 +141,55 @@ nav {
 .separator p {
   font-size: 13px;
   color: rgb(114, 114, 126);
+}
+.ver{
+  border-radius: 10%;
+  border: none;
+  color: rgb(245, 243, 243);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgba(202, 62, 62, 0.849);
+}
+.admin{
+  border-radius: 12%;
+  border: solid;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+.ver1{
+background-color: rgba(202, 62, 62, 0.849);
+}
+.ver2{
+background-color: white;
+border-color: black;
+}
+.lista{
+  display: flex;
+  align-items: flex-end;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  flex-direction:row;
+  padding: 0 auto;
+  margin:0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+.lista img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
 }
